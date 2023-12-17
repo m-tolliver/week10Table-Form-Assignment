@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Project Paint"</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="week10.js">
+</head>
+<body class="container">
+    <script src="week10.js"></script>
+    <br>
+  <!--This is my form-->
+  <div class="card">
+    <div class="card-body">
+      <div class="row">
+        <div class="col-sm">
+            <div class="form-group">
+                <label for="project-name">Project Name (ex. living room, bedroom)</label>
+                <input type="text" class="form-control" id="project-name">
+            </div>
+        </div>
+      </div>
+      <div>
+        <button id="new-project" class="btn btn-primary form-control">Create</button>
+      </div>
+    </div>
+</div>
+ <br>
+
+ <div id="projects">
+
+ </div>
+  <!--This is my form/table-->
+  
+   <div class="card">
+     <div class="card-body">
+       <div class="row">
+        <div class="col-sm">  
+         <div class="form-group">
+          <label for="paint-color">Paint-Color</label>  
+           <input type="color" class="form-control" id="new-paint-color">
+        
+        </div>
+       
+        </div>
+        
+        <div class="col-sm">
+            <div class="form-group">
+                <label for="quantity">Quantity</label>  
+                 <input type="text" class="form-control" id="new-paint-color">
+        </div>
+       </div>
+     </div>
+    <div class="row">
+        <div class="col-sm">
+            <div class="form-group">
+                <label for="text"></label>
+                 <input type="text" class="form-control" id="new-paint-color" placeholder="Color">   
+            </div>
+      <div class="row">
+        <div class="col-sm">
+            <div class="form-group">
+                <label for="new-start-date">Project Start Date</label>
+                <input type="date" class="form-control" id="new-start-date">
+
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="form-group">
+                <label for="new-end-date">Project End Date</label>
+                <input type="date" class="form-control" id="new-end-date">
+
+            </div>
+        </div>
+      </div>
+      
+      
+        </div>
+    
+        <button id="add" class="btn btn-primary form-control">Create</button>
+    
+    </div>
+    
+    </div>
+<!--This is supposed to be where the user can add to the table-->
+    <table id="list" class="table table-dark table-striped">
+       <tr>
+          <th>Project</th>
+          <th>Color</th>
+          <th>Dimension</th>
+          
+       </tr>  
+
+
+    </table>
+    
+    <div class="alert alert-primary" role="alert">
+    </div>
+    
+    <script scr="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>    
+    <script src="week10.js"></script>
+    
+</body>
+</html>
